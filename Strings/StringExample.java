@@ -3,7 +3,8 @@ public class StringExample {
 		String str1 = "Hello";
 
 		String str2 = new String("Java");
-
+		
+		System.out.println(str2.getBytes());
 		System.out.println(str1);
 		System.out.println(str2);
 	}
