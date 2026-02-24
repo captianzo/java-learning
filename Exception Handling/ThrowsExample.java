@@ -7,9 +7,10 @@ public class ThrowsExample {
 	}
 	public static void main(String[] args) throws Exception{
 		try {
-			fun();
+			// fun();
+			throw new ArithmeticException("This is an explicit Exception");
 		} catch (Exception e) {
-			System.out.println("Exception Handled : " + e.getMessage());
+			System.out.println("Exception Handled : " + e);
 		}
 	}
 }

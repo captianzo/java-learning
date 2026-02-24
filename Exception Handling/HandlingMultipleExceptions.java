@@ -1,4 +1,4 @@
-public class HnadlingMultipleExceptions {
+public class HandlingMultipleExceptions {
 	public static void main(String[] args) {
 		try {
 			String str = null;
