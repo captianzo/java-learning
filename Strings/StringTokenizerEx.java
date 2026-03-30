@@ -7,7 +7,7 @@ import java.util.StringTokenizer;
 public class StringTokenizerEx {
 	public static void main(String[] args) {
 		String str = "Java,Python,C,C++,JavaScript";
-		StringTokenizer st = new StringTokenizer(str);
+		StringTokenizer st = new StringTokenizer(str, ",");
 
 		while (st.hasMoreTokens()) { 
 			System.out.println(st.nextToken());

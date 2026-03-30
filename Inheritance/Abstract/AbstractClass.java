@@ -12,9 +12,9 @@ class Circle extends Shape{
 		System.out.println("Drawing a circle");
 	}
 
-	// void message(){
-	// 	System.out.println("This is a circle");
-	// }
+	void message(){
+		System.out.println("This is a circle");
+	}
 }
 
 class Rectangle extends Shape{
@@ -28,6 +28,7 @@ class Rectangle extends Shape{
 // An abstract method has no body and must be implemented in a sublcass
 public class AbstractClass {
 	public static void main(String[] args) {
+		// Shape s = new Shape(); // cant instantiate abstract class
 		// Circle c = new Circle();
 		// c.draw();
 		// c.message();

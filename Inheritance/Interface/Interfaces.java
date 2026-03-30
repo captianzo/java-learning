@@ -4,7 +4,7 @@
 // classes implement interfaces using the implements command
 
 interface Animal{
-	void sound();
+	void sound(); // abstract method
 }
 
 class Dog implements Animal{
@@ -20,8 +20,9 @@ class Cat implements Animal{
 
 public class Interfaces {
 	public static void main(String[] args) {
-		Animal a;
-		a = new Dog();
+		Animal a = new Dog();
+		Animal c = new Cat();
 		a.sound();
+		c.sound();
 	}
 }

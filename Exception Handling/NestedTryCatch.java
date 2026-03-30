@@ -15,7 +15,7 @@ public class NestedTryCatch {
 
 			String str = null;
 			System.out.println(str.length()); // causes NullPointerException
-		} catch (NullPointerException e) {
+		} catch (NullPointerExcep e) {
 			// catch block for outer try
 			System.out.println("Caught NullPointerException in outer try block: " + e.getMessage());
 		} finally {

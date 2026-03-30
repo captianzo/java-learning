@@ -1,4 +1,4 @@
-public class NullPointerException {
+public class NullPointerExcep {
 	public static void main(String[] args) {
 		String s = "";
 
@@ -21,7 +21,7 @@ public class NullPointerException {
 		try {
 			System.out.println(getLength(s));
 		} catch (Exception e) {
-			System.out.println("IllegalArgumentException caught");
+			System.out.println("IllegalArgumentException caught: " + e.getMessage());
 		}
 	}
 

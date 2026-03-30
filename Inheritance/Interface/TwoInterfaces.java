@@ -11,16 +11,15 @@ interface Scanner{
 }
 
 class Machine implements Printer, Scanner{
-	// public void start(){
-	// 	System.out.println("Starting the machine");
-	// }
-	// public void print(){
-	// 	System.out.println("Printing Document");
-	// }
-	// public void scan(){
-	// 	System.out.println("Scanning Document");
-	// }
-	
+	public void start(){
+		System.out.println("Starting the machine");
+	}
+	public void print(){
+		System.out.println("Printing Document");
+	}
+	public void scan(){
+		System.out.println("Scanning Document");
+	}
 }
 
 public class TwoInterfaces {
